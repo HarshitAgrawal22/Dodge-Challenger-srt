@@ -1,0 +1,111 @@
+    #topnav {
+        background: linear-gradient(120deg, grey, black, grey, black, grey, black);
+        display: flex;
+        justify-content: space-between;
+        font-size: 5vh;
+        color: red;
+        border-radius: 10px;
+        height: 10vh;
+        padding-left: 2%;
+        font-family: 'Bacasime Antique', serif;
+    }
+    
+    #topnav ul {
+        display: flex;
+        gap: 10px;
+        list-style: none;
+        font-size: 2.5vh;
+        padding-right: 5%;
+    }
+    
+    #topnav a {
+        background-color: honeydew;
+        border-radius: 20%;
+        padding: 5%;
+        margin: 12px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    #mainbody {
+        background-color: white;
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 5%;
+    }
+    
+    video {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    
+    img {
+        border-radius: 12px;
+        width: 100%;
+    }
+    
+    .picholder {
+        margin: 1%;
+        background: grey;
+        padding: 10px;
+        width: 50%;
+    }
+    
+    .vidholder {
+        margin: 1%;
+        background: grey;
+        width: 50%;
+    }
+    
+    body {
+        background-color: grey;
+    }
+    
+    #mainbody .vidholder a {
+        margin-top: 12%;
+        width: 40%;
+        margin-left: 40%;
+        margin-right: auto;
+        padding: 5px;
+        text-decoration: none;
+        color: purple;
+        background: aquamarine;
+        border-radius: 10%;
+        border: solid black 2px;
+    }
+    
+    #mainbody .vidholder a:hover {
+        background-color: bisque;
+        font-family: 'Teko', sans-serif;
+        padding-left: 20px;
+        padding-right: 20px;
+        transition: 1s;
+    }
+    
+    footer ul li a {
+        font-family: 'Teko', sans-serif;
+        text-decoration: none;
+        color: white;
+        padding: 12px;
+    }
+    
+    footer ul li {
+        font-family: 'Teko', sans-serif;
+        list-style: none;
+    }
+    
+    footer {
+        background-color: grey;
+        display: flex;
+    }
+    
+    footer a {
+        text-decoration: none;
+        margin-top: 39px;
+        padding-left: 1%;
+    }
+    
+    p {
+        font-size: 24px;
+        font-family: 'Agdasima', sans-serif;
+    }
